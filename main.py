@@ -30,7 +30,7 @@ def isprime(p:int)->bool:
 
 def main():
     """
-    Renvoi les nombres premiers qui sont dans les 100 premiers nombres entiers (0,1,2,3,...,98,99)
+    Renvoi les nombres premiers qui sont dans les 100 premiers nombres entiers (0,1,2,3,...,98,99).
     """
     for n in range(100):
         if isprime(n) is True: # On vérifie si le nombre est premier avec la fonction isprime.
